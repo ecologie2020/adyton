@@ -1,0 +1,23 @@
+{
+  "name": "adyton",
+  "version": "0.0.0",
+  "description": "Faire gagner des voix à l'écologie aux élections municipales 2020 en aidant les listes écologistes à orienter leur action électorale (tractage, permanences, événements…).",
+  "main": "src/prioritize-abstention.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattiSG/adyton.git"
+  },
+  "author": "Matti Schneider",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/MattiSG/adyton/issues"
+  },
+  "homepage": "https://github.com/MattiSG/adyton#readme",
+  "dependencies": {
+    "csv-parse": "^4.8.3",
+    "lodash": "^4.17.15"
+  }
+}

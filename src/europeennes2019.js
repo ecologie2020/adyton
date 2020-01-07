@@ -1,16 +1,27 @@
+const fs = require('fs').promises;
+
 const _ = require('lodash');
 const parse = require('csv-parse');
 
 
+const SOURCE_FILE = `${__dirname}/../data/europeennes-2019-nice.csv`;
 const LISTES_NAMES = require('../data/europeennes-2019-listes.json').listes;
 
+function loadFile(source = SOURCE_FILE) {
+	return fs.readFile(source);
+}
 
-function parseEuropeennes2019(data, callback) {
-	return parse(data, {
-		columns: getColumns(),
-		delimiter: ';',
-		relax_column_count: true,  // we transform each record, columns count cannot match at first
-	}, callback);
+function parseEuropeennes2019(data) {
+	return new Promise((resolve, reject) => {
+		parse(data, {
+			columns: getColumns(),
+			delimiter: ';',
+			relax_column_count: true,  // we transform each record, columns count cannot match at first
+		}, (err, content) => {
+			if (err) reject(err);
+			resolve(content);
+		});
+	});
 }
 
 function sortBureauxBy(bureaux, type) {
@@ -67,6 +78,7 @@ function getColumns() {
 
 
 module.exports = {
+	load: loadFile,
 	parse: parseEuropeennes2019,
 	sortBureauxBy,
 }

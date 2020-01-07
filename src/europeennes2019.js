@@ -43,7 +43,7 @@ function parseEuropeennes2019(data, callback) {
 }
 
 function sortBureauxBy(bureaux, type) {
-	let bureauxByAbstention = _.sortBy(bureaux, bureau => { return +bureau[type] });
+	let bureauxByAbstention = _.sortBy(bureaux, bureau => { return +(bureau[type].replace(',', '.')) });
 	bureauxByAbstention.reverse();
 
 	return bureauxByAbstention;

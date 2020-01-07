@@ -33,7 +33,7 @@ describe('Européennes 2019', () => {
 		});
 	});
 
-	test('sorts', () => {
+	test('sorts by integer values', () => {
 		let sortedBureaux = europeennes2019.sortBureauxBy(parsedData, 'Inscrits');
 
 		expect(sortedBureaux).toBeInstanceOf(Array);
@@ -41,5 +41,15 @@ describe('Européennes 2019', () => {
 		expect(sortedBureaux[0]).toHaveProperty('Inscrits', '793');
 		expect(sortedBureaux[1]).toHaveProperty('Inscrits', '784');
 		expect(sortedBureaux[2]).toHaveProperty('Inscrits', '79');
+	});
+
+	test('sorts by decimal values', () => {
+		let sortedBureaux = europeennes2019.sortBureauxBy(parsedData, '% Abs/Ins');
+
+		expect(sortedBureaux).toBeInstanceOf(Array);
+		expect(sortedBureaux).toHaveLength(3);
+		expect(sortedBureaux[0]).toHaveProperty('% Abs/Ins', '70');
+		expect(sortedBureaux[1]).toHaveProperty('% Abs/Ins', '57,76');
+		expect(sortedBureaux[2]).toHaveProperty('% Abs/Ins', '50,13');
 	});
 });

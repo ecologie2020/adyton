@@ -13,7 +13,9 @@ fs.readFile(SOURCE_FILE, (err, contents) => {
 		if (err)
 			throw err;
 
-		let sortedBureaux = europeennes2019.sortBureauxBy(bureaux, '% Abs/Ins');
-		console.log('10 bureaux avec la plus forte abstention :', sortedBureaux.slice(0, 10));
+		let bureauxByAbstention = europeennes2019.sortBureauxBy(bureaux, '% Abs/Ins');
+		let bureauxByEELVScore = europeennes2019.sortBureauxBy(bureaux, '% Voix/Exp EUROPE ÉCOLOGIE');
+		console.log('10 bureaux avec la plus forte abstention :', bureauxByAbstention.slice(0, 10).map(bureau => { return { [bureau.Bureau]: bureau['% Abs/Ins'] } }));
+		console.log('10 bureaux avec le plus fort score EELV :', bureauxByEELVScore.slice(0, 10).map(bureau => { return { [bureau.Bureau]: bureau['% Voix/Exp EUROPE ÉCOLOGIE'] } }));
 	});
 });

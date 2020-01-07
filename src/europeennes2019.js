@@ -31,6 +31,16 @@ function sortBureauxBy(bureaux, type) {
 	return bureauxByAbstention;
 }
 
+function getPotentialScoresForMapping(bureaux, mapping) {
+	return bureaux.reduce((result, bureau) => {
+		result[bureau.Bureau] = LISTES_NAMES.reduce((potentialScore, listeName) => {
+			return potentialScore + (+bureau[`Voix ${listeName}`]) * mapping[listeName];
+		}, 0);
+
+		return result;
+	}, {});
+}
+
 function getColumns() {
 	let result = [
 		'Code du département',
@@ -78,6 +88,7 @@ function getColumns() {
 
 
 module.exports = {
+	getPotentialScoresForMapping,
 	load: loadFile,
 	parse: parseEuropeennes2019,
 	sortBureauxBy,

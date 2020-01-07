@@ -26,6 +26,8 @@ describe('Européennes 2019', () => {
 			expect(bureaux).toBeInstanceOf(Array);
 			expect(bureaux).toHaveLength(3);
 			expect(bureaux[0]).toHaveProperty('Inscrits', '784');
+			expect(bureaux[0]).toHaveProperty('LA FRANCE INSOUMISE', '6');
+			expect(bureaux[0]).toHaveProperty('UNE FRANCE ROYALE', '0');
 
 			parsedData = bureaux;
 

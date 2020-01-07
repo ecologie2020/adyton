@@ -1,9 +1,6 @@
-const fs = require('fs');
-
 const _ = require('lodash');
 const parse = require('csv-parse');
 
-const SOURCE_FILE = `${__dirname}/../data/europeennes-2019-nice.csv`;
 
 const COLUMNS = [
 	'Code du département',
@@ -37,21 +34,22 @@ const COLUMNS = [
 ]
 
 
-fs.readFile(SOURCE_FILE, (err, contents) => {
-	if (err)
-		throw err;
-
-	parse(contents, {
+function parseEuropeennes2019(data, callback) {
+	return parse(data, {
 		columns: COLUMNS,
 		delimiter: ';',
 		relax_column_count: true,  // support repeating part
-	}, (err, bureaux) => {
-		if (err)
-			throw err;
+	}, callback);
+}
 
-		let bureauxByAbstention = _.sortBy(bureaux, bureau => { return bureau['% Abs/Ins'] });
-		bureauxByAbstention.reverse();
+function sortBureauxBy(bureaux, type) {
+	let bureauxByAbstention = _.sortBy(bureaux, bureau => { return bureau[type] });
+	bureauxByAbstention.reverse();
 
-		console.log(bureauxByAbstention.slice(0, 10));
-	});
-});
+	return bureauxByAbstention;
+}
+
+module.exports = {
+	parse: parseEuropeennes2019,
+	sortBureauxBy,
+}

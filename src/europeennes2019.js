@@ -9,7 +9,6 @@ function parseEuropeennes2019(data, callback) {
 	return parse(data, {
 		columns: getColumns(),
 		delimiter: ';',
-		on_record: filterBureau,
 		relax_column_count: true,  // we transform each record, columns count cannot match at first
 	}, callback);
 }
@@ -22,11 +21,11 @@ function sortBureauxBy(bureaux, type) {
 }
 
 function getColumns() {
-	const FIXED_COLUMNS = [
-		// 'Code du département',
-		// 'Libellé du département',
-		// 'Code de la commune',
-		// 'Libellé de la commune',
+	let result = [
+		'Code du département',
+		'Libellé du département',
+		'Code de la commune',
+		'Libellé de la commune',
 		'Bureau',	// 'Code du b.vote',
 		'Inscrits',
 		'Abstentions',
@@ -53,17 +52,17 @@ function getColumns() {
 		// /* end of repeated part */
 	];
 
-	return FIXED_COLUMNS.concat(LISTES_NAMES);
-}
-
-/**
-* @see	#getColumns	To understand the original shape and how we navigate it
-*/
-function filterBureau(bureau) {
-	console.log('>> bureau:', bureau);
-	const result = bureau.slice(4, 19);  // remove unused département and commune identifiers
-	const voix = LISTES_NAMES.map((listeName, listeIndex) => bureau[19 + listeIndex * 7]);  // TOOPTIMIZE: inline indexes
-	return result.concat(voix);
+	return LISTES_NAMES.reduce((result, listeName) => {  // TOOPTIMIZE: use splice instead of reduce to modify array in place
+		return result.concat([
+			`N° Liste ${listeName}`,
+			`Libellé Abrégé Liste ${listeName}`,
+			`Libellé Etendu Liste ${listeName}`,
+			`Nom Tête de Liste ${listeName}`,
+			`Voix ${listeName}`,
+			`% Voix/Ins ${listeName}`,
+			`% Voix/Exp ${listeName}`,
+		]);
+	}, result);
 }
 
 

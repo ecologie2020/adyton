@@ -1,6 +1,7 @@
 const fs = require('fs');
 
 const europeennes2019 = require('./europeennes2019');
+const LISTES = require('../data/europeennes-2019-listes').listes;
 
 
 let fileContents,
@@ -44,5 +45,22 @@ describe('Européennes 2019', () => {
 		expect(sortedBureaux[0]).toHaveProperty('% Abs/Ins', '70');
 		expect(sortedBureaux[1]).toHaveProperty('% Abs/Ins', '57,76');
 		expect(sortedBureaux[2]).toHaveProperty('% Abs/Ins', '50,13');
+	});
+
+	test('computes vote potential according to mapping table', () => {
+		let mapping = LISTES.reduce((mapping, listeName) => {
+			mapping[listeName] = 0.1;
+			return mapping;
+		}, {});
+
+		mapping['LA FRANCE INSOUMISE'] = 0.8;
+
+		const subject = europeennes2019.getPotentialScoresForMapping(parsedData, mapping);
+
+		expect(subject).toEqual({
+			'0102': 42.7,
+			'0101': 43,
+			'0099': 56.7,
+		});
 	});
 });

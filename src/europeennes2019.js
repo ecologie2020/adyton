@@ -31,6 +31,10 @@ function sortBureauxBy(bureaux, type) {
 	return bureauxByAbstention;
 }
 
+function getPotentialScoresForMapping(bureaux, mapping) {
+	return void 0;
+}
+
 function getColumns() {
 	let result = [
 		'Code du département',
@@ -78,6 +82,7 @@ function getColumns() {
 
 
 module.exports = {
+	getPotentialScoresForMapping,
 	load: loadFile,
 	parse: parseEuropeennes2019,
 	sortBureauxBy,

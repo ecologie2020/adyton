@@ -32,7 +32,13 @@ function sortBureauxBy(bureaux, type) {
 }
 
 function getPotentialScoresForMapping(bureaux, mapping) {
-	return void 0;
+	return bureaux.reduce((result, bureau) => {
+		result[bureau.Bureau] = LISTES_NAMES.reduce((potentialScore, listeName) => {
+			return potentialScore + (+bureau[`Voix ${listeName}`]) * mapping[listeName];
+		}, 0);
+
+		return result;
+	}, {});
 }
 
 function getColumns() {

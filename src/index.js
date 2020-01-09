@@ -11,10 +11,11 @@ europeennes2019.load()
 		let bureauxByAbstention = europeennes2019.sortBureauxBy(bureaux, '% Abs/Ins');
 		let bureauxByEELVScore = europeennes2019.sortBureauxBy(bureaux, '% Voix/Exp EUROPE ÉCOLOGIE');
 		bureauxByEELVScore = bureauxByEELVScore.slice(0, 10).map(bureau => { return { [bureau.Bureau]: bureau['% Voix/Exp EUROPE ÉCOLOGIE'] } });
+		bureauxByAbstention = bureauxByAbstention.slice(0, 25).map(bureau => { return { [bureau.Bureau]: bureau['% Abs/Ins'] } });
 
-		console.log('10 bureaux avec la plus forte abstention :', bureauxByAbstention.slice(0, 10).map(bureau => { return { [bureau.Bureau]: bureau['% Abs/Ins'] } }));
+		console.log('10 bureaux avec la plus forte abstention :', bureauxByAbstention);
 		console.log('10 bureaux avec le plus fort score EELV :', bureauxByEELVScore);
 		console.log('Score potentiel par bureau :', europeennes2019.getPotentialScoresForMapping(bureaux, reportsMapping));
 
-		console.log('GeoJSON des plus forts scores EELV:', JSON.stringify(geojsonFromBureaux(bureauxByEELVScore)));
+		console.log('GeoJSON des plus forts scores EELV :', JSON.stringify(geojsonFromBureaux(bureauxByAbstention)));
 	});

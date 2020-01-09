@@ -1,0 +1,3280 @@
+{
+    "docs": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26181782,
+                    43.71680031
+                ]
+            },
+            "NOM": "LES LILAS",
+            "N_BUREAU": "515",
+            "BUREAU": 15,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25892245,
+                    43.69524528
+                ]
+            },
+            "NOM": "MEYERBEER",
+            "N_BUREAU": "102",
+            "BUREAU": 2,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29937768,
+                    43.73903136
+                ]
+            },
+            "NOM": "SAINTE AGATHE",
+            "N_BUREAU": "708",
+            "BUREAU": 8,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2551059,
+                    43.71622355
+                ]
+            },
+            "NOM": "SANTA FIOR",
+            "N_BUREAU": "518",
+            "BUREAU": 18,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27835034,
+                    43.69670003
+                ]
+            },
+            "NOM": "LE CHATEAU",
+            "N_BUREAU": "904",
+            "BUREAU": 4,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26482673,
+                    43.71231688
+                ]
+            },
+            "NOM": "LIBERATION",
+            "N_BUREAU": "511",
+            "BUREAU": 11,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28949777,
+                    43.70005752
+                ]
+            },
+            "NOM": "MONT BORON",
+            "N_BUREAU": "916",
+            "BUREAU": 16,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29110402,
+                    43.71322313
+                ]
+            },
+            "NOM": "JEAN XXIII",
+            "N_BUREAU": "809",
+            "BUREAU": 9,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25480077,
+                    43.71596365
+                ]
+            },
+            "NOM": "MICHELET",
+            "N_BUREAU": "522",
+            "BUREAU": 22,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25285841,
+                    43.69496828
+                ]
+            },
+            "NOM": "FRANKLIN",
+            "N_BUREAU": "112",
+            "BUREAU": 12,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25252888,
+                    43.69524481
+                ]
+            },
+            "NOM": "ORANGERS",
+            "N_BUREAU": "119",
+            "BUREAU": 19,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22988882,
+                    43.70910534
+                ]
+            },
+            "NOM": "LA MADELEINE",
+            "N_BUREAU": "427",
+            "BUREAU": 27,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.23757601,
+                    43.71413753
+                ]
+            },
+            "NOM": "LES RESTANQUES",
+            "N_BUREAU": "432",
+            "BUREAU": 32,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28314761,
+                    43.69771852
+                ]
+            },
+            "NOM": "FODERE",
+            "N_BUREAU": "907",
+            "BUREAU": 7,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28314761,
+                    43.69771852
+                ]
+            },
+            "NOM": "CARNOT",
+            "N_BUREAU": "905",
+            "BUREAU": 5,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2463817,
+                    43.72549008
+                ]
+            },
+            "NOM": "LA VALLIERE",
+            "N_BUREAU": "415",
+            "BUREAU": 15,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28776499,
+                    43.72640557
+                ]
+            },
+            "NOM": "BON VOYAGE",
+            "N_BUREAU": "706",
+            "BUREAU": 6,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26926041,
+                    43.71428919
+                ]
+            },
+            "NOM": "NADAUD",
+            "N_BUREAU": "614",
+            "BUREAU": 14,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27687527,
+                    43.7173329
+                ]
+            },
+            "NOM": "REGINA",
+            "N_BUREAU": "616",
+            "BUREAU": 16,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28474722,
+                    43.70751822
+                ]
+            },
+            "NOM": "RISSO",
+            "N_BUREAU": "927",
+            "BUREAU": 27,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26846139,
+                    43.70232763
+                ]
+            },
+            "NOM": "DEROULEDE",
+            "N_BUREAU": "105",
+            "BUREAU": 5,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25252888,
+                    43.69524481
+                ]
+            },
+            "NOM": "FRANCOIS GROSSO",
+            "N_BUREAU": "118",
+            "BUREAU": 18,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22636055,
+                    43.6914464
+                ]
+            },
+            "NOM": "TERRON MADONETTE",
+            "N_BUREAU": "228",
+            "BUREAU": 28,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.23757601,
+                    43.71413753
+                ]
+            },
+            "NOM": "SAINT PIERRE DE FERIC",
+            "N_BUREAU": "431",
+            "BUREAU": 31,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21466898,
+                    43.70955657
+                ]
+            },
+            "NOM": "SAINT ANTOINE",
+            "N_BUREAU": "216",
+            "BUREAU": 16,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22962502,
+                    43.71466
+                ]
+            },
+            "NOM": "COSTIERE",
+            "N_BUREAU": "430",
+            "BUREAU": 30,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22636055,
+                    43.6914464
+                ]
+            },
+            "NOM": "CAMBRAI",
+            "N_BUREAU": "229",
+            "BUREAU": 29,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26482673,
+                    43.71231688
+                ]
+            },
+            "NOM": "MIRABEAU",
+            "N_BUREAU": "509",
+            "BUREAU": 9,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27510556,
+                    43.73087712
+                ]
+            },
+            "NOM": "SCUDERI",
+            "N_BUREAU": "623",
+            "BUREAU": 23,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.30732079,
+                    43.73867734
+                ]
+            },
+            "NOM": "ANATOLE DE MONZIE",
+            "N_BUREAU": "711",
+            "BUREAU": 11,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26463195,
+                    43.7128611
+                ]
+            },
+            "NOM": "BORRIGLIONE",
+            "N_BUREAU": "513",
+            "BUREAU": 13,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29154972,
+                    43.71345389
+                ]
+            },
+            "NOM": "MARECHAL VAUBAN",
+            "N_BUREAU": "810",
+            "BUREAU": 10,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2574311,
+                    43.70876627
+                ]
+            },
+            "NOM": "VERNIER",
+            "N_BUREAU": "505",
+            "BUREAU": 5,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25252888,
+                    43.69524481
+                ]
+            },
+            "NOM": "DANTE",
+            "N_BUREAU": "117",
+            "BUREAU": 17,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27365352,
+                    43.70296616
+                ]
+            },
+            "NOM": "BREA",
+            "N_BUREAU": "605",
+            "BUREAU": 5,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.23342081,
+                    43.68530115
+                ]
+            },
+            "NOM": "SAINTE HELENE",
+            "N_BUREAU": "203",
+            "BUREAU": 3,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2558076,
+                    43.70870422
+                ]
+            },
+            "NOM": "GAMBETTA",
+            "N_BUREAU": "402",
+            "BUREAU": 2,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.23342081,
+                    43.68530115
+                ]
+            },
+            "NOM": "LENVAL",
+            "N_BUREAU": "202",
+            "BUREAU": 2,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2463817,
+                    43.72549008
+                ]
+            },
+            "NOM": "ANTOINE VERAN",
+            "N_BUREAU": "416",
+            "BUREAU": 16,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29341622,
+                    43.71735553
+                ]
+            },
+            "NOM": "MONT GROS",
+            "N_BUREAU": "819",
+            "BUREAU": 19,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29555452,
+                    43.71800292
+                ]
+            },
+            "NOM": "ROQUEBILLIERE",
+            "N_BUREAU": "821",
+            "BUREAU": 21,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21121877,
+                    43.67862271
+                ]
+            },
+            "NOM": "LES JASMINS",
+            "N_BUREAU": "221",
+            "BUREAU": 21,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26246946,
+                    43.7260741
+                ]
+            },
+            "NOM": "GRAVIER",
+            "N_BUREAU": "627",
+            "BUREAU": 27,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26281921,
+                    43.72555583
+                ]
+            },
+            "NOM": "LA FONTAINE",
+            "N_BUREAU": "532",
+            "BUREAU": 32,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27194107,
+                    43.7225726
+                ]
+            },
+            "NOM": "FLIREY",
+            "N_BUREAU": "619",
+            "BUREAU": 19,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25266145,
+                    43.69566684
+                ]
+            },
+            "NOM": "BAUMETTES",
+            "N_BUREAU": "114",
+            "BUREAU": 14,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.30032129,
+                    43.7060973
+                ]
+            },
+            "NOM": "COL DE VILLEFRANCHE",
+            "N_BUREAU": "917",
+            "BUREAU": 17,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29555452,
+                    43.71800292
+                ]
+            },
+            "NOM": "SAINT CHARLES",
+            "N_BUREAU": "820",
+            "BUREAU": 20,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21056383,
+                    43.67157063
+                ]
+            },
+            "NOM": "PAUL MONTEL",
+            "N_BUREAU": "306",
+            "BUREAU": 6,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27538883,
+                    43.69949961
+                ]
+            },
+            "NOM": "LYCEE",
+            "N_BUREAU": "602",
+            "BUREAU": 2,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29110402,
+                    43.71322313
+                ]
+            },
+            "NOM": "ACCHIARDI",
+            "N_BUREAU": "812",
+            "BUREAU": 12,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25892245,
+                    43.69524528
+                ]
+            },
+            "NOM": "RIVOLI",
+            "N_BUREAU": "103",
+            "BUREAU": 3,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2574311,
+                    43.70876627
+                ]
+            },
+            "NOM": "BEATRIX",
+            "N_BUREAU": "508",
+            "BUREAU": 8,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27365352,
+                    43.70296616
+                ]
+            },
+            "NOM": "DUBOUCHAGE",
+            "N_BUREAU": "604",
+            "BUREAU": 4,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26346146,
+                    43.73697687
+                ]
+            },
+            "NOM": "GAIRAUT",
+            "N_BUREAU": "626",
+            "BUREAU": 26,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28797597,
+                    43.69754136
+                ]
+            },
+            "NOM": "STALINGRAD",
+            "N_BUREAU": "913",
+            "BUREAU": 13,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27039422,
+                    43.73104338
+                ]
+            },
+            "NOM": "ACACIAS",
+            "N_BUREAU": "630",
+            "BUREAU": 30,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27282161,
+                    43.69672558
+                ]
+            },
+            "NOM": "CORVESY",
+            "N_BUREAU": "903",
+            "BUREAU": 3,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2087285,
+                    43.68565061
+                ]
+            },
+            "NOM": "LES IRIS",
+            "N_BUREAU": "313",
+            "BUREAU": 13,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2463817,
+                    43.72549008
+                ]
+            },
+            "NOM": "BERENGER",
+            "N_BUREAU": "414",
+            "BUREAU": 14,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21056383,
+                    43.67157063
+                ]
+            },
+            "NOM": "LES MOULINS",
+            "N_BUREAU": "304",
+            "BUREAU": 4,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28475101,
+                    43.70753278
+                ]
+            },
+            "NOM": "RICHELMI",
+            "N_BUREAU": "924",
+            "BUREAU": 24,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2574311,
+                    43.70876627
+                ]
+            },
+            "NOM": "ALFRED BINET",
+            "N_BUREAU": "506",
+            "BUREAU": 6,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.24596378,
+                    43.69291695
+                ]
+            },
+            "NOM": "POINCARE",
+            "N_BUREAU": "123",
+            "BUREAU": 23,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27150914,
+                    43.69594737
+                ]
+            },
+            "NOM": "ROSSETTI",
+            "N_BUREAU": "902",
+            "BUREAU": 2,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28165159,
+                    43.70127463
+                ]
+            },
+            "NOM": "PAPON",
+            "N_BUREAU": "910",
+            "BUREAU": 10,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25024601,
+                    43.73081762
+                ]
+            },
+            "NOM": "HENRI SAPPIA",
+            "N_BUREAU": "423",
+            "BUREAU": 23,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29131956,
+                    43.71488583
+                ]
+            },
+            "NOM": "LEYRIT",
+            "N_BUREAU": "817",
+            "BUREAU": 17,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21123861,
+                    43.6715096
+                ]
+            },
+            "NOM": "LES SAGNES",
+            "N_BUREAU": "303",
+            "BUREAU": 3,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21121877,
+                    43.67862271
+                ]
+            },
+            "NOM": "CAUCADE",
+            "N_BUREAU": "302",
+            "BUREAU": 2,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28082962,
+                    43.71058349
+                ]
+            },
+            "NOM": "PAULIANI",
+            "N_BUREAU": "612",
+            "BUREAU": 12,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28040861,
+                    43.7110685
+                ]
+            },
+            "NOM": "NATHALIE MASSE",
+            "N_BUREAU": "824",
+            "BUREAU": 24,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21901537,
+                    43.67057441
+                ]
+            },
+            "NOM": "NICE FLORE",
+            "N_BUREAU": "223",
+            "BUREAU": 23,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27090286,
+                    43.70359135
+                ]
+            },
+            "NOM": "LAMARTINE",
+            "N_BUREAU": "609",
+            "BUREAU": 9,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27088186,
+                    43.70744001
+                ]
+            },
+            "NOM": "ROLAND GARROS",
+            "N_BUREAU": "611",
+            "BUREAU": 11,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26152661,
+                    43.70284323
+                ]
+            },
+            "NOM": "ROSSINI",
+            "N_BUREAU": "107",
+            "BUREAU": 7,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26152661,
+                    43.70284323
+                ]
+            },
+            "NOM": "GUIGLIA",
+            "N_BUREAU": "109",
+            "BUREAU": 9,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26152661,
+                    43.70284323
+                ]
+            },
+            "NOM": "BERLIOZ",
+            "N_BUREAU": "110",
+            "BUREAU": 10,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2551059,
+                    43.71622355
+                ]
+            },
+            "NOM": "MOLIERE",
+            "N_BUREAU": "516",
+            "BUREAU": 16,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.23792711,
+                    43.69405059
+                ]
+            },
+            "NOM": "CANTA GALET",
+            "N_BUREAU": "129",
+            "BUREAU": 29,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22636055,
+                    43.6914464
+                ]
+            },
+            "NOM": "FABRON",
+            "N_BUREAU": "227",
+            "BUREAU": 27,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26463195,
+                    43.7128611
+                ]
+            },
+            "NOM": "VILLERMONT",
+            "N_BUREAU": "512",
+            "BUREAU": 12,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27687527,
+                    43.7173329
+                ]
+            },
+            "NOM": "SALONINA",
+            "N_BUREAU": "617",
+            "BUREAU": 17,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27163962,
+                    43.7261365
+                ]
+            },
+            "NOM": "CIMIEZ",
+            "N_BUREAU": "620",
+            "BUREAU": 20,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27163962,
+                    43.7261365
+                ]
+            },
+            "NOM": "MARNE",
+            "N_BUREAU": "621",
+            "BUREAU": 21,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29110402,
+                    43.71322313
+                ]
+            },
+            "NOM": "GIONO",
+            "N_BUREAU": "811",
+            "BUREAU": 11,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25665558,
+                    43.72367764
+                ]
+            },
+            "NOM": "DE FOUCAULD",
+            "N_BUREAU": "528",
+            "BUREAU": 28,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.24891829,
+                    43.70062782
+                ]
+            },
+            "NOM": "CLUVIER",
+            "N_BUREAU": "121",
+            "BUREAU": 21,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28314761,
+                    43.69771852
+                ]
+            },
+            "NOM": "LE PORT",
+            "N_BUREAU": "906",
+            "BUREAU": 6,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26991148,
+                    43.73069313
+                ]
+            },
+            "NOM": "VALLON DES FLEURS",
+            "N_BUREAU": "629",
+            "BUREAU": 29,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.30254576,
+                    43.72054553
+                ]
+            },
+            "NOM": "OBSERVATOIRE",
+            "N_BUREAU": "918",
+            "BUREAU": 18,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27355942,
+                    43.70363668
+                ]
+            },
+            "NOM": "LES GLYCINES",
+            "N_BUREAU": "607",
+            "BUREAU": 7,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25665558,
+                    43.72367764
+                ]
+            },
+            "NOM": "GORBELLA",
+            "N_BUREAU": "530",
+            "BUREAU": 30,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25024601,
+                    43.73081762
+                ]
+            },
+            "NOM": "LAS PLANAS",
+            "N_BUREAU": "422",
+            "BUREAU": 22,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26482673,
+                    43.71231688
+                ]
+            },
+            "NOM": "MALAUSSENA",
+            "N_BUREAU": "510",
+            "BUREAU": 10,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28644037,
+                    43.70118323
+                ]
+            },
+            "NOM": "SMOLETT",
+            "N_BUREAU": "920",
+            "BUREAU": 20,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25205071,
+                    43.72326608
+                ]
+            },
+            "NOM": "STEPHEN LIEGEARD",
+            "N_BUREAU": "525",
+            "BUREAU": 25,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25249642,
+                    43.70728968
+                ]
+            },
+            "NOM": "PETIT PIOL",
+            "N_BUREAU": "407",
+            "BUREAU": 7,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.24040512,
+                    43.69752577
+                ]
+            },
+            "NOM": "PARC MOSCA",
+            "N_BUREAU": "128",
+            "BUREAU": 28,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21199986,
+                    43.68710928
+                ]
+            },
+            "NOM": "LA LANTERNE SUPERIEURE",
+            "N_BUREAU": "213",
+            "BUREAU": 13,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.19304324,
+                    43.71223777
+                ]
+            },
+            "NOM": "SAINT ISIDORE",
+            "N_BUREAU": "314",
+            "BUREAU": 14,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.23792711,
+                    43.69405059
+                ]
+            },
+            "NOM": "ROSA BONHEUR",
+            "N_BUREAU": "131",
+            "BUREAU": 31,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.24040512,
+                    43.69752577
+                ]
+            },
+            "NOM": "LA VILLETTE",
+            "N_BUREAU": "232",
+            "BUREAU": 32,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.23699563,
+                    43.73754293
+                ]
+            },
+            "NOM": "LA CLUA",
+            "N_BUREAU": "426",
+            "BUREAU": 26,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2087285,
+                    43.68565061
+                ]
+            },
+            "NOM": "CORNICHE FLEURIE",
+            "N_BUREAU": "312",
+            "BUREAU": 12,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29220805,
+                    43.70617102
+                ]
+            },
+            "NOM": "ARMEE DES ALPES",
+            "N_BUREAU": "806",
+            "BUREAU": 6,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29111417,
+                    43.71331173
+                ]
+            },
+            "NOM": "FONTAN",
+            "N_BUREAU": "814",
+            "BUREAU": 14,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29112139,
+                    43.71340807
+                ]
+            },
+            "NOM": "FORNERO MENEI",
+            "N_BUREAU": "815",
+            "BUREAU": 15,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22023445,
+                    43.67995276
+                ]
+            },
+            "NOM": "NAPOLEON III",
+            "N_BUREAU": "212",
+            "BUREAU": 12,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22015282,
+                    43.67988042
+                ]
+            },
+            "NOM": "MONTREAL",
+            "N_BUREAU": "211",
+            "BUREAU": 11,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.20130557,
+                    43.6910276
+                ]
+            },
+            "NOM": "CAL DE SPAGNOL",
+            "N_BUREAU": "310",
+            "BUREAU": 10,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21466898,
+                    43.70955657
+                ]
+            },
+            "NOM": "DURANDY",
+            "N_BUREAU": "218",
+            "BUREAU": 18,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2087285,
+                    43.68565061
+                ]
+            },
+            "NOM": "ARIETA",
+            "N_BUREAU": "220",
+            "BUREAU": 20,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22636055,
+                    43.6914464
+                ]
+            },
+            "NOM": "IMPERATRICE EUGENIE",
+            "N_BUREAU": "230",
+            "BUREAU": 30,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2562826,
+                    43.72514939
+                ]
+            },
+            "NOM": "GRAVIER",
+            "N_BUREAU": "433",
+            "BUREAU": 33,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22700711,
+                    43.70346594
+                ]
+            },
+            "NOM": "LES TREUYES",
+            "N_BUREAU": "434",
+            "BUREAU": 34,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27526559,
+                    43.7184241
+                ]
+            },
+            "NOM": "COLOMBO",
+            "N_BUREAU": "714",
+            "BUREAU": 14,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21199986,
+                    43.68710928
+                ]
+            },
+            "NOM": "SAVONA",
+            "N_BUREAU": "236",
+            "BUREAU": 36,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.19304324,
+                    43.71223777
+                ]
+            },
+            "NOM": "MERCANTOUR",
+            "N_BUREAU": "316",
+            "BUREAU": 16,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.20221266,
+                    43.67755891
+                ]
+            },
+            "NOM": "MATISSE",
+            "N_BUREAU": "315",
+            "BUREAU": 15,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22962502,
+                    43.71466
+                ]
+            },
+            "NOM": "COSTA THERESE",
+            "N_BUREAU": "435",
+            "BUREAU": 35,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27090286,
+                    43.70359135
+                ]
+            },
+            "NOM": "G. APOLLINAIRE",
+            "N_BUREAU": "632",
+            "BUREAU": 32,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26939637,
+                    43.7143456
+                ]
+            },
+            "NOM": "GEORGES V",
+            "N_BUREAU": "633",
+            "BUREAU": 33,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27510556,
+                    43.73087712
+                ]
+            },
+            "NOM": "MIREIO",
+            "N_BUREAU": "634",
+            "BUREAU": 34,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26482673,
+                    43.71231688
+                ]
+            },
+            "NOM": "COMBOUL",
+            "N_BUREAU": "635",
+            "BUREAU": 35,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29233107,
+                    43.70616493
+                ]
+            },
+            "NOM": "D'ANGELY",
+            "N_BUREAU": "825",
+            "BUREAU": 25,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28644037,
+                    43.70118323
+                ]
+            },
+            "NOM": "BARLA",
+            "N_BUREAU": "919",
+            "BUREAU": 19,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25435079,
+                    43.71566738
+                ]
+            },
+            "NOM": "SAINT BARTHELEMY",
+            "N_BUREAU": "519",
+            "BUREAU": 19,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25665558,
+                    43.72367764
+                ]
+            },
+            "NOM": "FONTAINE DU TEMPLE",
+            "N_BUREAU": "529",
+            "BUREAU": 29,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25435079,
+                    43.71566738
+                ]
+            },
+            "NOM": "PARMENTIER",
+            "N_BUREAU": "521",
+            "BUREAU": 21,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2551059,
+                    43.71622355
+                ]
+            },
+            "NOM": "CLEMENT ADER",
+            "N_BUREAU": "517",
+            "BUREAU": 17,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25665558,
+                    43.72367764
+                ]
+            },
+            "NOM": "PAGNOL",
+            "N_BUREAU": "527",
+            "BUREAU": 27,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25213762,
+                    43.69563527
+                ]
+            },
+            "NOM": "BOTTERO",
+            "N_BUREAU": "115",
+            "BUREAU": 15,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.24040512,
+                    43.69752577
+                ]
+            },
+            "NOM": "LES AGAVES",
+            "N_BUREAU": "127",
+            "BUREAU": 27,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22700711,
+                    43.70346594
+                ]
+            },
+            "NOM": "VENTABRUN",
+            "N_BUREAU": "231",
+            "BUREAU": 31,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21466898,
+                    43.70955657
+                ]
+            },
+            "NOM": "GINESTIERE",
+            "N_BUREAU": "217",
+            "BUREAU": 17,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.24891829,
+                    43.70062782
+                ]
+            },
+            "NOM": "BEAUSITE",
+            "N_BUREAU": "122",
+            "BUREAU": 22,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27510556,
+                    43.73087712
+                ]
+            },
+            "NOM": "RIMIEZ",
+            "N_BUREAU": "622",
+            "BUREAU": 22,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28395966,
+                    43.70210444
+                ]
+            },
+            "NOM": "RIBOTTI",
+            "N_BUREAU": "922",
+            "BUREAU": 22,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26152661,
+                    43.70284323
+                ]
+            },
+            "NOM": "PAGANINI",
+            "N_BUREAU": "108",
+            "BUREAU": 8,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25205071,
+                    43.72326608
+                ]
+            },
+            "NOM": "CAUVIN",
+            "N_BUREAU": "526",
+            "BUREAU": 26,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21959179,
+                    43.67956556
+                ]
+            },
+            "NOM": "LA LANTERNE",
+            "N_BUREAU": "207",
+            "BUREAU": 7,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27090286,
+                    43.70359135
+                ]
+            },
+            "NOM": "RAIMBALDI",
+            "N_BUREAU": "610",
+            "BUREAU": 10,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2574311,
+                    43.70876627
+                ]
+            },
+            "NOM": "DABRAY",
+            "N_BUREAU": "503",
+            "BUREAU": 3,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27526559,
+                    43.7184241
+                ]
+            },
+            "NOM": "BELLANDA",
+            "N_BUREAU": "705",
+            "BUREAU": 5,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28474722,
+                    43.70751822
+                ]
+            },
+            "NOM": "BARBERIS",
+            "N_BUREAU": "925",
+            "BUREAU": 25,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28797597,
+                    43.69754136
+                ]
+            },
+            "NOM": "FRANCK PILATTE",
+            "N_BUREAU": "911",
+            "BUREAU": 11,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22066467,
+                    43.68039371
+                ]
+            },
+            "NOM": "RAOUL DUFY",
+            "N_BUREAU": "209",
+            "BUREAU": 9,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22607692,
+                    43.68217912
+                ]
+            },
+            "NOM": "FERBER",
+            "N_BUREAU": "204",
+            "BUREAU": 4,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25414041,
+                    43.71574692
+                ]
+            },
+            "NOM": "CYRNOS",
+            "N_BUREAU": "405",
+            "BUREAU": 5,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.23699563,
+                    43.73754293
+                ]
+            },
+            "NOM": "SAINT PANCRACE",
+            "N_BUREAU": "425",
+            "BUREAU": 25,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25026043,
+                    43.7156437
+                ]
+            },
+            "NOM": "RIGHI",
+            "N_BUREAU": "413",
+            "BUREAU": 13,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29131956,
+                    43.71488583
+                ]
+            },
+            "NOM": "SAINT ROCH",
+            "N_BUREAU": "816",
+            "BUREAU": 16,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29937768,
+                    43.73903136
+                ]
+            },
+            "NOM": "AMEDEE VII",
+            "N_BUREAU": "709",
+            "BUREAU": 9,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.20221266,
+                    43.67755891
+                ]
+            },
+            "NOM": "DIGUE DES FRANCAIS",
+            "N_BUREAU": "309",
+            "BUREAU": 9,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.20312398,
+                    43.67315981
+                ]
+            },
+            "NOM": "SANTOLINE",
+            "N_BUREAU": "307",
+            "BUREAU": 7,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21901537,
+                    43.67057441
+                ]
+            },
+            "NOM": "RENE CASSIN",
+            "N_BUREAU": "301",
+            "BUREAU": 1,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25205071,
+                    43.72326608
+                ]
+            },
+            "NOM": "FREDERIC MISTRAL",
+            "N_BUREAU": "411",
+            "BUREAU": 11,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25414041,
+                    43.71574692
+                ]
+            },
+            "NOM": "CESSOLE",
+            "N_BUREAU": "406",
+            "BUREAU": 6,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26152661,
+                    43.70284323
+                ]
+            },
+            "NOM": "MARECHAL JOFFRE",
+            "N_BUREAU": "111",
+            "BUREAU": 11,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.24891829,
+                    43.70062782
+                ]
+            },
+            "NOM": "SAINT PHILIPPE",
+            "N_BUREAU": "401",
+            "BUREAU": 1,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27510556,
+                    43.73087712
+                ]
+            },
+            "NOM": "CAP DE CROIX",
+            "N_BUREAU": "624",
+            "BUREAU": 24,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2562826,
+                    43.72514939
+                ]
+            },
+            "NOM": "CHARLES BAUDELAIRE",
+            "N_BUREAU": "424",
+            "BUREAU": 24,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.30737327,
+                    43.73908607
+                ]
+            },
+            "NOM": "GENERAL SARAMITO",
+            "N_BUREAU": "713",
+            "BUREAU": 13,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26152661,
+                    43.70284323
+                ]
+            },
+            "NOM": "AUBER",
+            "N_BUREAU": "106",
+            "BUREAU": 6,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25480077,
+                    43.71596365
+                ]
+            },
+            "NOM": "CYRILLE BESSET",
+            "N_BUREAU": "523",
+            "BUREAU": 23,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26181782,
+                    43.71680031
+                ]
+            },
+            "NOM": "VALROSE",
+            "N_BUREAU": "625",
+            "BUREAU": 25,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.20130557,
+                    43.6910276
+                ]
+            },
+            "NOM": "SAINTE MARGUERITE",
+            "N_BUREAU": "311",
+            "BUREAU": 11,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25141765,
+                    43.72915577
+                ]
+            },
+            "NOM": "LES OLIVIERS",
+            "N_BUREAU": "420",
+            "BUREAU": 20,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28354068,
+                    43.7218117
+                ]
+            },
+            "NOM": "PASTEUR",
+            "N_BUREAU": "702",
+            "BUREAU": 2,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28706922,
+                    43.70667238
+                ]
+            },
+            "NOM": "BLANCON",
+            "N_BUREAU": "803",
+            "BUREAU": 3,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22988882,
+                    43.70910534
+                ]
+            },
+            "NOM": "NICOLAI",
+            "N_BUREAU": "429",
+            "BUREAU": 29,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25944951,
+                    43.70689492
+                ]
+            },
+            "NOM": "TRACHEL",
+            "N_BUREAU": "501",
+            "BUREAU": 1,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27150914,
+                    43.69594737
+                ]
+            },
+            "NOM": "HOTEL DE VILLE",
+            "N_BUREAU": "901",
+            "BUREAU": 1,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28797597,
+                    43.69754136
+                ]
+            },
+            "NOM": "LYMPIA",
+            "N_BUREAU": "912",
+            "BUREAU": 12,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28144122,
+                    43.70159482
+                ]
+            },
+            "NOM": "BONAPARTE",
+            "N_BUREAU": "909",
+            "BUREAU": 9,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21199986,
+                    43.68710928
+                ]
+            },
+            "NOM": "LES FREESIAS",
+            "N_BUREAU": "214",
+            "BUREAU": 14,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21199986,
+                    43.68710928
+                ]
+            },
+            "NOM": "ANTHEMIS",
+            "N_BUREAU": "215",
+            "BUREAU": 15,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25141765,
+                    43.72915577
+                ]
+            },
+            "NOM": "CERNUSCHI",
+            "N_BUREAU": "419",
+            "BUREAU": 19,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25141765,
+                    43.72915577
+                ]
+            },
+            "NOM": "COMTE DE FALICON",
+            "N_BUREAU": "418",
+            "BUREAU": 18,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26346146,
+                    43.73697687
+                ]
+            },
+            "NOM": "LA SERENA",
+            "N_BUREAU": "628",
+            "BUREAU": 28,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28776499,
+                    43.72640557
+                ]
+            },
+            "NOM": "TURIN",
+            "N_BUREAU": "707",
+            "BUREAU": 7,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29555452,
+                    43.71800292
+                ]
+            },
+            "NOM": "PIERRE SEMARD",
+            "N_BUREAU": "822",
+            "BUREAU": 22,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28254216,
+                    43.71895577
+                ]
+            },
+            "NOM": "JEAN MACE",
+            "N_BUREAU": "804",
+            "BUREAU": 4,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26846139,
+                    43.70232763
+                ]
+            },
+            "NOM": "LONGCHAMP",
+            "N_BUREAU": "104",
+            "BUREAU": 4,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2574311,
+                    43.70876627
+                ]
+            },
+            "NOM": "JOSEPH GARNIER",
+            "N_BUREAU": "507",
+            "BUREAU": 7,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25435079,
+                    43.71566738
+                ]
+            },
+            "NOM": "SEVIGNE",
+            "N_BUREAU": "520",
+            "BUREAU": 20,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25249642,
+                    43.70728968
+                ]
+            },
+            "NOM": "PARC IMPERIAL",
+            "N_BUREAU": "403",
+            "BUREAU": 3,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25237326,
+                    43.69545427
+                ]
+            },
+            "NOM": "SHAKESPEARE",
+            "N_BUREAU": "120",
+            "BUREAU": 20,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25266145,
+                    43.69566684
+                ]
+            },
+            "NOM": "LES FLEURS",
+            "N_BUREAU": "116",
+            "BUREAU": 16,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.214672,
+                    43.74305471
+                ]
+            },
+            "NOM": "SAINT ROMAN DE BELLET",
+            "N_BUREAU": "233",
+            "BUREAU": 33,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26181782,
+                    43.71680031
+                ]
+            },
+            "NOM": "CHAMBRUN",
+            "N_BUREAU": "514",
+            "BUREAU": 14,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.20312398,
+                    43.67315981
+                ]
+            },
+            "NOM": "BOIS DE BOULOGNE",
+            "N_BUREAU": "308",
+            "BUREAU": 8,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2887341,
+                    43.70293705
+                ]
+            },
+            "NOM": "BEAUMONT",
+            "N_BUREAU": "801",
+            "BUREAU": 1,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28474722,
+                    43.70751822
+                ]
+            },
+            "NOM": "RIQUIER",
+            "N_BUREAU": "928",
+            "BUREAU": 28,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29341622,
+                    43.71735553
+                ]
+            },
+            "NOM": "DENIS SEMERIA",
+            "N_BUREAU": "818",
+            "BUREAU": 18,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29937768,
+                    43.73903136
+                ]
+            },
+            "NOM": "COMTE VERT",
+            "N_BUREAU": "710",
+            "BUREAU": 10,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22167525,
+                    43.67539861
+                ]
+            },
+            "NOM": "EUCALYPTUS",
+            "N_BUREAU": "222",
+            "BUREAU": 22,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21056383,
+                    43.67157063
+                ]
+            },
+            "NOM": "VITTONE",
+            "N_BUREAU": "226",
+            "BUREAU": 26,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26939637,
+                    43.7143456
+                ]
+            },
+            "NOM": "D'ESSLING",
+            "N_BUREAU": "615",
+            "BUREAU": 15,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28475101,
+                    43.70753278
+                ]
+            },
+            "NOM": "PIERRE SOLA",
+            "N_BUREAU": "926",
+            "BUREAU": 26,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.23792711,
+                    43.69405059
+                ]
+            },
+            "NOM": "BORNALA",
+            "N_BUREAU": "130",
+            "BUREAU": 30,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27090286,
+                    43.70359135
+                ]
+            },
+            "NOM": "DESAMBROIS",
+            "N_BUREAU": "608",
+            "BUREAU": 8,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25141765,
+                    43.72915577
+                ]
+            },
+            "NOM": "LE RAY",
+            "N_BUREAU": "421",
+            "BUREAU": 21,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21901537,
+                    43.67057441
+                ]
+            },
+            "NOM": "BELLEUDY",
+            "N_BUREAU": "224",
+            "BUREAU": 24,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27538883,
+                    43.69949961
+                ]
+            },
+            "NOM": "GIOFFREDO",
+            "N_BUREAU": "603",
+            "BUREAU": 3,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28165143,
+                    43.71924022
+                ]
+            },
+            "NOM": "SAINT PONS",
+            "N_BUREAU": "701",
+            "BUREAU": 1,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29283833,
+                    43.70603367
+                ]
+            },
+            "NOM": "DIABLES BLEUS",
+            "N_BUREAU": "808",
+            "BUREAU": 8,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28644037,
+                    43.70118323
+                ]
+            },
+            "NOM": "ARSON",
+            "N_BUREAU": "921",
+            "BUREAU": 21,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29233107,
+                    43.70616493
+                ]
+            },
+            "NOM": "SORGENTINO",
+            "N_BUREAU": "807",
+            "BUREAU": 7,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25199749,
+                    43.70955328
+                ]
+            },
+            "NOM": "LA MANTEGA",
+            "N_BUREAU": "408",
+            "BUREAU": 8,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25199749,
+                    43.70955328
+                ]
+            },
+            "NOM": "SAINT PAUL",
+            "N_BUREAU": "409",
+            "BUREAU": 9,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.24718065,
+                    43.72557848
+                ]
+            },
+            "NOM": "SAINT SYLVESTRE",
+            "N_BUREAU": "417",
+            "BUREAU": 17,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25026043,
+                    43.71564415
+                ]
+            },
+            "NOM": "PESSICART",
+            "N_BUREAU": "412",
+            "BUREAU": 12,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25199749,
+                    43.70955328
+                ]
+            },
+            "NOM": "MIRASOL",
+            "N_BUREAU": "410",
+            "BUREAU": 10,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28949707,
+                    43.70005911
+                ]
+            },
+            "NOM": "ANDRE DE JOLY",
+            "N_BUREAU": "914",
+            "BUREAU": 14,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.30732079,
+                    43.73867734
+                ]
+            },
+            "NOM": "PIAGET",
+            "N_BUREAU": "712",
+            "BUREAU": 12,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.19304324,
+                    43.71223777
+                ]
+            },
+            "NOM": "LINGOSTIERE",
+            "N_BUREAU": "235",
+            "BUREAU": 35,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21123861,
+                    43.6715096
+                ]
+            },
+            "NOM": "GRINDA",
+            "N_BUREAU": "305",
+            "BUREAU": 5,
+            "CANTON": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27538883,
+                    43.69949961
+                ]
+            },
+            "NOM": "FELIX FAURE",
+            "N_BUREAU": "601",
+            "BUREAU": 1,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28082962,
+                    43.71058349
+                ]
+            },
+            "NOM": "GALLIENI",
+            "N_BUREAU": "613",
+            "BUREAU": 13,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28310797,
+                    43.7218152
+                ]
+            },
+            "NOM": "FRANCOIS CARLO",
+            "N_BUREAU": "704",
+            "BUREAU": 4,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28354068,
+                    43.7218117
+                ]
+            },
+            "NOM": "ANTONIA AUGUSTA",
+            "N_BUREAU": "703",
+            "BUREAU": 3,
+            "CANTON": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28040861,
+                    43.7110685
+                ]
+            },
+            "NOM": "MARECHAL LYAUTEY",
+            "N_BUREAU": "823",
+            "BUREAU": 23,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26482673,
+                    43.71231688
+                ]
+            },
+            "NOM": "OLIVETTO",
+            "N_BUREAU": "631",
+            "BUREAU": 31,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28949707,
+                    43.70005911
+                ]
+            },
+            "NOM": "MAETERLINCK",
+            "N_BUREAU": "915",
+            "BUREAU": 15,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29205728,
+                    43.70614239
+                ]
+            },
+            "NOM": "BISCHOFFSHEIM",
+            "N_BUREAU": "805",
+            "BUREAU": 5,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.29154972,
+                    43.71345389
+                ]
+            },
+            "NOM": "ROUSSILLON",
+            "N_BUREAU": "813",
+            "BUREAU": 13,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28395966,
+                    43.70210444
+                ]
+            },
+            "NOM": "REPUBLIQUE",
+            "N_BUREAU": "923",
+            "BUREAU": 23,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28706922,
+                    43.70667238
+                ]
+            },
+            "NOM": "BLANQUI",
+            "N_BUREAU": "802",
+            "BUREAU": 2,
+            "CANTON": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25892245,
+                    43.69524528
+                ]
+            },
+            "NOM": "MASSENA",
+            "N_BUREAU": "101",
+            "BUREAU": 1,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25944951,
+                    43.70689492
+                ]
+            },
+            "NOM": "GREGOIRE",
+            "N_BUREAU": "502",
+            "BUREAU": 2,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2574311,
+                    43.70876627
+                ]
+            },
+            "NOM": "CLEMENT ROASSAL",
+            "N_BUREAU": "504",
+            "BUREAU": 4,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25414041,
+                    43.71574692
+                ]
+            },
+            "NOM": "PATRIMOINE",
+            "N_BUREAU": "524",
+            "BUREAU": 24,
+            "CANTON": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25285841,
+                    43.69496828
+                ]
+            },
+            "NOM": "CHATEAUNEUF",
+            "N_BUREAU": "113",
+            "BUREAU": 13,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.25249642,
+                    43.70728968
+                ]
+            },
+            "NOM": "DAUPHINE",
+            "N_BUREAU": "404",
+            "BUREAU": 4,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.24040512,
+                    43.69752577
+                ]
+            },
+            "NOM": "CHALET DES ROSES",
+            "N_BUREAU": "126",
+            "BUREAU": 26,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22988882,
+                    43.70910534
+                ]
+            },
+            "NOM": "ETOILE",
+            "N_BUREAU": "428",
+            "BUREAU": 28,
+            "CANTON": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.214672,
+                    43.74305471
+                ]
+            },
+            "NOM": "CREMAT",
+            "N_BUREAU": "234",
+            "BUREAU": 34,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27365352,
+                    43.70296616
+                ]
+            },
+            "NOM": "CARABACEL",
+            "N_BUREAU": "606",
+            "BUREAU": 6,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.28064653,
+                    43.69964194
+                ]
+            },
+            "NOM": "SEGURANE",
+            "N_BUREAU": "908",
+            "BUREAU": 8,
+            "CANTON": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.27687527,
+                    43.7173329
+                ]
+            },
+            "NOM": "LES ARENES",
+            "N_BUREAU": "618",
+            "BUREAU": 18,
+            "CANTON": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2190539,
+                    43.67006001
+                ]
+            },
+            "NOM": "ARENAS",
+            "N_BUREAU": "225",
+            "BUREAU": 25,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.23342081,
+                    43.68530115
+                ]
+            },
+            "NOM": "CARRAS",
+            "N_BUREAU": "201",
+            "BUREAU": 1,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.24596378,
+                    43.69291695
+                ]
+            },
+            "NOM": "CARLONE",
+            "N_BUREAU": "124",
+            "BUREAU": 24,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.24596378,
+                    43.69291695
+                ]
+            },
+            "NOM": "MAGNAN",
+            "N_BUREAU": "125",
+            "BUREAU": 25,
+            "CANTON": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.21959179,
+                    43.67956556
+                ]
+            },
+            "NOM": "MAGNOLIAS",
+            "N_BUREAU": "206",
+            "BUREAU": 6,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22066467,
+                    43.68039371
+                ]
+            },
+            "NOM": "JOSEPH GIORDAN",
+            "N_BUREAU": "208",
+            "BUREAU": 8,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2087285,
+                    43.68565061
+                ]
+            },
+            "NOM": "BATTERIE RUSSE",
+            "N_BUREAU": "219",
+            "BUREAU": 19,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22607692,
+                    43.68217912
+                ]
+            },
+            "NOM": "COSTA BELLA",
+            "N_BUREAU": "205",
+            "BUREAU": 5,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.22066467,
+                    43.68039371
+                ]
+            },
+            "NOM": "LES CYPRES",
+            "N_BUREAU": "210",
+            "BUREAU": 10,
+            "CANTON": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.26246946,
+                    43.7260741
+                ]
+            },
+            "NOM": "VISMARA",
+            "N_BUREAU": "531",
+            "BUREAU": 31,
+            "CANTON": 5
+        }
+    ]
+}

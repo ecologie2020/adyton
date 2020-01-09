@@ -21,3 +21,12 @@ https://www.data.gouv.fr/fr/datasets/r/4b9a4bfb-0575-47ef-8e5e-5108560a4114
 ### Surprises et traitement
 
 - Ce fichier contient la liste exhaustive de tou·te·s les candidat·e·s sur chaque liste. Le traitement est plus complexe que de regénérer manuellement la liste des listes.
+
+
+## Bureaux de votes
+
+### À Nice
+
+### Source
+
+https://www.data.gouv.fr/fr/datasets/r/a5aabae7-34cb-4e55-b8a5-7acb33d577c5

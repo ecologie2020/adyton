@@ -18,6 +18,7 @@
   "homepage": "https://github.com/MattiSG/adyton#readme",
   "dependencies": {
     "csv-parse": "^4.8.3",
+    "geojson": "^0.5.0",
     "lodash": "^4.17.15"
   },
   "devDependencies": {

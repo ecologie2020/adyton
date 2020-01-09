@@ -58,9 +58,9 @@ describe('Européennes 2019', () => {
 
 		expect(subject).toHaveProperty('0102');
 		expect(subject).toHaveProperty('0101');
-		expect(subject).toHaveProperty('0099');
+		expect(subject).toHaveProperty('0203');
 		expect(subject['0102']).toBeCloseTo(42.7, 3);
 		expect(subject['0101']).toBeCloseTo(43, 3);
-		expect(subject['0099']).toBeCloseTo(56.7, 3);
+		expect(subject['0203']).toBeCloseTo(56.7, 3);
 	});
 });

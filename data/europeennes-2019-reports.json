@@ -1,6 +1,6 @@
 {
-	"écologie": {
-		"MS": {
+	"écologie": [
+		{
 			"LA FRANCE INSOUMISE": 0.05,
 			"UNE FRANCE ROYALE": 0,
 			"LA LIGNE CLAIRE": 0,
@@ -36,7 +36,7 @@
 			"UDLEF": 0.01,
 			"EUROPE AU SERVICE PEUPLES": 0
 		},
-		"?": {
+		{
 			"LA FRANCE INSOUMISE": 0.05,
 			"UNE FRANCE ROYALE": 0.05,
 			"LA LIGNE CLAIRE": 0,
@@ -72,7 +72,7 @@
 			"UDLEF": 0.05,
 			"EUROPE AU SERVICE PEUPLES": 0.05
 		},
-		"PN": {
+		{
 			"LA FRANCE INSOUMISE": 0.05,
 			"UNE FRANCE ROYALE": 0,
 			"LA LIGNE CLAIRE": 0,
@@ -108,7 +108,7 @@
 			"UDLEF": 0.05,
 			"EUROPE AU SERVICE PEUPLES": 0.05
 		},
-		"JG": {
+		{
 			"LA FRANCE INSOUMISE": 0.1,
 			"UNE FRANCE ROYALE": 0.05,
 			"LA LIGNE CLAIRE": 0.2,
@@ -144,5 +144,5 @@
 			"UDLEF": 0.1,
 			"EUROPE AU SERVICE PEUPLES": 0.1
 		}
-	}
+	]
 }

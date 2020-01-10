@@ -1,6 +1,6 @@
 const europeennes2019 = require('./europeennes2019');
 const geojsonFromBureaux = require('./geo').geojsonFromBureaux;
-const reportsMapping = require('../data/europeennes-2019-reports.json').écologie;
+const reportsMappings = require('../data/europeennes-2019-reports.json').écologie;
 
 const SOURCE_FILE = '../data/europeennes-2019-nice.csv';
 
@@ -13,9 +13,11 @@ europeennes2019.load()
 		bureauxByEELVScore = bureauxByEELVScore.slice(0, 10).map(bureau => { return { [bureau.Bureau]: bureau['% Voix/Exp EUROPE ÉCOLOGIE'] } });
 		bureauxByAbstention = bureauxByAbstention.slice(0, 25).map(bureau => { return { [bureau.Bureau]: bureau['% Abs/Ins'] } });
 
+		let averageReportsMapping = europeennes2019.mergeMappings(reportsMappings);
+
 		console.log('10 bureaux avec la plus forte abstention :', bureauxByAbstention);
 		console.log('10 bureaux avec le plus fort score EELV :', bureauxByEELVScore);
-		console.log('Score potentiel par bureau :', europeennes2019.getPotentialScoresForMapping(bureaux, reportsMapping));
+		console.log('Score potentiel par bureau (moyenne des estimations) :', europeennes2019.getPotentialScoresForMapping(bureaux, averageReportsMapping));
 
 		console.log('GeoJSON des plus forts scores EELV :', JSON.stringify(geojsonFromBureaux(bureauxByAbstention)));
 	});

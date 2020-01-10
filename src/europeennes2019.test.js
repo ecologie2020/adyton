@@ -63,4 +63,22 @@ describe('Européennes 2019', () => {
 		expect(subject['0101']).toBeCloseTo(43, 3);
 		expect(subject['0203']).toBeCloseTo(56.7, 3);
 	});
+
+	test('merges mappings', () => {
+		let mapping1 = {},
+			mapping2 = {};
+
+		LISTES.forEach(listeName => {
+			mapping1[listeName] = 0.1;
+			mapping2[listeName] = 0.5;
+		});
+		mapping1['LA FRANCE INSOUMISE'] = 0.9;
+		mapping2['LA FRANCE INSOUMISE'] = 0.7;
+
+		let subject = europeennes2019.mergeMappings([ mapping1, mapping2 ]);
+
+		expect(subject).toHaveProperty('LA FRANCE INSOUMISE', 0.8);
+		expect(subject).toHaveProperty('UNE FRANCE ROYALE', 0.3);
+		expect(subject).toHaveProperty('LA LIGNE CLAIRE', 0.3);
+	});
 });

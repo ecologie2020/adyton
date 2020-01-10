@@ -28,12 +28,12 @@
 		});
 		map.addLayer(osmLayer);
 
-		fetch('dist/potentialScores.json')
-			.then(potentialScores => potentialScores.json())
-			.then(potentialScores => {
-				L.geoJSON(potentialScores).bindPopup(function (layer) {
-					return layer.feature.properties.valeur;
-				}).addTo(map);
+		fetch('dist/bureauxByEELVScore.geojson')
+			.then(bureauxByEELVScore => bureauxByEELVScore.json())
+			.then(bureauxByEELVScore => {
+				L.geoJSON(bureauxByEELVScore)
+					.bindPopup(layer => layer.feature.properties.valeur)
+					.addTo(map);
 			});
 	</script>
 </body>

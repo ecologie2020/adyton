@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const europeennes2019 = require('./europeennes2019');
 const geojsonFromBureaux = require('./geo').geojsonFromBureaux;
 const reportsMappings = require('../data/europeennes-2019-reports.json').écologie;
@@ -19,5 +21,8 @@ europeennes2019.load()
 		console.log('10 bureaux avec le plus fort score EELV :', bureauxByEELVScore);
 		console.log('Score potentiel par bureau (moyenne des estimations) :', europeennes2019.getPotentialScoresForMapping(bureaux, averageReportsMapping));
 
-		console.log('GeoJSON des plus forts scores EELV :', JSON.stringify(geojsonFromBureaux(bureauxByAbstention)));
+		fs.writeFile('dist/bureauxByEELVScore.geojson', JSON.stringify(geojsonFromBureaux(bureauxByEELVScore)), err => {
+			if (err) throw err;
+			console.log('Wrote bureauxByEELVScore.geojson');
+		});
 	});

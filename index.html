@@ -28,11 +28,11 @@
 		});
 		map.addLayer(osmLayer);
 
-		fetch('dist/bureauxByEELVScore.geojson')
-			.then(bureauxByEELVScore => bureauxByEELVScore.json())
-			.then(bureauxByEELVScore => {
-				L.geoJSON(bureauxByEELVScore)
-					.bindPopup(layer => layer.feature.properties.valeur)
+		fetch('dist/potentialScores.geojson')
+			.then(potentialScores => potentialScores.json())
+			.then(potentialScores => {
+				L.geoJSON(potentialScores)
+					.bindPopup(layer => `Potentiel de voix : ${Math.floor(layer.feature.properties.valeur)}`)
 					.addTo(map);
 			});
 	</script>

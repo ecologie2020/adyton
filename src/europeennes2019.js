@@ -40,12 +40,12 @@ function mergeMappings(mappings) {
 }
 
 function getPotentialScoresForMapping(bureaux, mapping) {
-	return bureaux.reduce((result, bureau) => {
-		result[bureau.Bureau] = LISTES_NAMES.reduce((potentialScore, listeName) => {
+	return bureaux.map(bureau => {
+		let potentialScore = LISTES_NAMES.reduce((potentialScore, listeName) => {
 			return potentialScore + (+bureau[`Voix ${listeName}`]) * mapping[listeName];
 		}, 0);
 
-		return result;
+		return { [bureau.Bureau]: potentialScore };
 	}, {});
 }
 

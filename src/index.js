@@ -16,13 +16,18 @@ europeennes2019.load()
 		bureauxByAbstention = bureauxByAbstention.slice(0, 25).map(bureau => { return { [bureau.Bureau]: bureau['% Abs/Ins'] } });
 
 		let averageReportsMapping = europeennes2019.mergeMappings(reportsMappings);
+		let potentialScores = europeennes2019.getPotentialScoresForMapping(bureaux, averageReportsMapping);
 
 		console.log('10 bureaux avec la plus forte abstention :', bureauxByAbstention);
 		console.log('10 bureaux avec le plus fort score EELV :', bureauxByEELVScore);
-		console.log('Score potentiel par bureau (moyenne des estimations) :', europeennes2019.getPotentialScoresForMapping(bureaux, averageReportsMapping));
 
 		fs.writeFile('dist/bureauxByEELVScore.geojson', JSON.stringify(geojsonFromBureaux(bureauxByEELVScore)), err => {
 			if (err) throw err;
 			console.log('Wrote bureauxByEELVScore.geojson');
+		});
+
+		fs.writeFile('dist/potentialScores.geojson', JSON.stringify(geojsonFromBureaux(potentialScores)), err => {
+			if (err) throw err;
+			console.log('Wrote potentialScores.geojson');
 		});
 	});

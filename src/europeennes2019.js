@@ -31,6 +31,14 @@ function sortBureauxBy(bureaux, type) {
 	return bureauxByAbstention;
 }
 
+function mergeMappings(mappings) {
+	return Object.keys(mappings[0]).reduce((result, listeName) => {
+		result[listeName] = mappings.reduce((sum, mapping) => sum + mapping[listeName], 0);
+		result[listeName] /= mappings.length;
+		return result;
+	}, {});
+}
+
 function getPotentialScoresForMapping(bureaux, mapping) {
 	return bureaux.reduce((result, bureau) => {
 		result[bureau.Bureau] = LISTES_NAMES.reduce((potentialScore, listeName) => {
@@ -90,6 +98,7 @@ function getColumns() {
 module.exports = {
 	getPotentialScoresForMapping,
 	load: loadFile,
+	mergeMappings,
 	parse: parseEuropeennes2019,
 	sortBureauxBy,
 }

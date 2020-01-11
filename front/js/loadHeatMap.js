@@ -1,4 +1,4 @@
-function loadHeatMap(sourceFileId, color) {
+function loadHeatMap(sourceFileId, gradient) {
 	return fetch(`/dist/${sourceFileId}.geojson`)
 		.then(potentialScores => potentialScores.json())
 		.then(potentialScores => {
@@ -11,6 +11,7 @@ function loadHeatMap(sourceFileId, color) {
 
 			return L.heatLayer(heatMapData, {
 				blur: 25,
+				gradient,
 				max: maxScore,
 				maxZoom: 16,
 				radius: 50,

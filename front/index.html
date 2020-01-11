@@ -28,7 +28,7 @@
 			maxZoom: 15
 		}).addTo(map);
 
-		let control = L.control.layers().addTo(map).expand();
+		let control = L.control.layers({}, {}, { collapsed: false }).addTo(map);
 	</script>
 
 	<script type="text/javascript" src="js/loadHeatMap.js"></script>

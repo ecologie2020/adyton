@@ -19,9 +19,9 @@ describe('Européennes 2019', () => {
 		return europeennes2019.parse(fileContents).then(subject => {
 			expect(subject).toBeInstanceOf(Array);
 			expect(subject).toHaveLength(3);
-			expect(subject[0]).toHaveProperty('Inscrits', '784');
-			expect(subject[0]).toHaveProperty('Voix LA FRANCE INSOUMISE', '6');
-			expect(subject[0]).toHaveProperty('Voix UNE FRANCE ROYALE', '0');
+			expect(subject[0]).toHaveProperty('Inscrits', 784);
+			expect(subject[0]).toHaveProperty('Voix LA FRANCE INSOUMISE', 6);
+			expect(subject[0]).toHaveProperty('Voix UNE FRANCE ROYALE', 0);
 
 			parsedData = subject;
 		});
@@ -32,9 +32,9 @@ describe('Européennes 2019', () => {
 
 		expect(subject).toBeInstanceOf(Array);
 		expect(subject).toHaveLength(3);
-		expect(subject[0]).toHaveProperty('Inscrits', '793');
-		expect(subject[1]).toHaveProperty('Inscrits', '784');
-		expect(subject[2]).toHaveProperty('Inscrits', '79');
+		expect(subject[0]).toHaveProperty('Inscrits', 793);
+		expect(subject[1]).toHaveProperty('Inscrits', 784);
+		expect(subject[2]).toHaveProperty('Inscrits', 79);
 	});
 
 	test('sorts by decimal values', () => {
@@ -42,9 +42,9 @@ describe('Européennes 2019', () => {
 
 		expect(subject).toBeInstanceOf(Array);
 		expect(subject).toHaveLength(3);
-		expect(subject[0]).toHaveProperty('% Abs/Ins', '70');
-		expect(subject[1]).toHaveProperty('% Abs/Ins', '57,76');
-		expect(subject[2]).toHaveProperty('% Abs/Ins', '50,13');
+		expect(subject[0]).toHaveProperty('% Abs/Ins', 70);
+		expect(subject[1]).toHaveProperty('% Abs/Ins', 57.76);
+		expect(subject[2]).toHaveProperty('% Abs/Ins', 50.13);
 	});
 
 	test('computes vote potential according to mapping table', () => {

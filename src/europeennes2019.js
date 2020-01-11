@@ -16,6 +16,7 @@ function parseEuropeennes2019(data) {
 		parse(data, {
 			columns: getColumns(),
 			delimiter: ';',
+			on_record: cast,
 			relax_column_count: true,  // we transform each record, columns count cannot match at first
 		}, (err, content) => {
 			if (err) reject(err);
@@ -25,10 +26,7 @@ function parseEuropeennes2019(data) {
 }
 
 function sortBureauxBy(bureaux, type) {
-	let bureauxByAbstention = _.sortBy(bureaux, bureau => { return +(bureau[type].replace(',', '.')) });
-	bureauxByAbstention.reverse();
-
-	return bureauxByAbstention;
+	return _.sortBy(bureaux, type).reverse();
 }
 
 function mergeMappings(mappings) {
@@ -40,12 +38,12 @@ function mergeMappings(mappings) {
 }
 
 function getPotentialScoresForMapping(bureaux, mapping) {
-	return bureaux.reduce((result, bureau) => {
-		result[bureau.Bureau] = LISTES_NAMES.reduce((potentialScore, listeName) => {
+	return bureaux.map(bureau => {
+		let potentialScore = LISTES_NAMES.reduce((potentialScore, listeName) => {
 			return potentialScore + (+bureau[`Voix ${listeName}`]) * mapping[listeName];
 		}, 0);
 
-		return result;
+		return { [bureau.Bureau]: potentialScore };
 	}, {});
 }
 
@@ -92,6 +90,16 @@ function getColumns() {
 			`% Voix/Exp ${listeName}`,
 		]);
 	}, result);
+}
+
+let NUMBER_FIELDS = /^(%|Inscrits|Abstentions|Votants|Blancs|Nuls|Exprimés|N°|Voix)/;
+function cast(record) {
+	Object.keys(record).forEach(fieldName => {  // TOOPTIMIZE: for..in instead of function
+		if (fieldName.match(NUMBER_FIELDS))
+			record[fieldName] = Number(record[fieldName].replace(',', '.'));
+	});
+
+	return record;
 }
 
 

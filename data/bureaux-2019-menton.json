@@ -1,0 +1,369 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.50280648469925,
+                    43.77569281600124
+                ]
+            },
+            "id": "138",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>1<sup>er</sup> bureau de vote</a>",
+                "description": "<p>Secteur centre-ville<br class='autobr' />\nHôtel de ville, <br class='autobr' />\n17 rue de la République<br class='autobr' />\n06500 Menton</p>",
+                "icon": "https://www.menton.fr/IMG/gison138.png?1558354851",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.502044737339021,
+                    43.77627769630134
+                ]
+            },
+            "id": "139",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>2<sup>ème</sup> 3<sup>ème</sup> et 4<sup>ème</sup> bureaux de vote</a>",
+                "description": "<p>Secteur centre-ville <br class='autobr' />\nÉcole de l’Hôtel de Ville<br class='autobr' />\nrue saint Charles<br class='autobr' />\n06500 Menton</p>",
+                "icon": "https://www.menton.fr/IMG/gison139.png?1558354880",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.496465742588043,
+                    43.7758826122223
+                ]
+            },
+            "id": "140",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>5<sup>ème</sup> 6<sup>ème</sup> 7<sup>ème</sup> bureaux de vote </a>",
+                "description": "<p>Secteur Louvre<br class='autobr' />\nRésidence du Louvre<br class='autobr' />\nrue du Louvre<br class='autobr' />\n06500 Menton</p>",
+                "icon": "https://www.menton.fr/IMG/gison140.png?1558354933",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.493397295475007,
+                    43.772729592799216
+                ]
+            },
+            "id": "141",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>8<sup>ème</sup> 9<sup>ème</sup> 10<sup>ème</sup> bureaux de vote </a>",
+                "description": "<p>Secteur Condamine<br class='autobr' />\nÉcole de la Condamine<br class='autobr' />\n24 rue Morgan<br class='autobr' />\n06500 Menton</p>",
+                "icon": "https://www.menton.fr/IMG/gison141.png?1558354952",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.493987381458283,
+                    43.77200135337962
+                ]
+            },
+            "id": "142",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>11<sup>ème</sup> 12<sup>ème</sup> 13<sup>ème</sup> 14<sup>ème</sup> bureaux de vote </a>",
+                "description": "<p>Secteur Borrigo <br class='autobr' />\nÉcole Maternelle Germaine Coty, <br class='autobr' />\nrue Morgan</p>",
+                "icon": "https://www.menton.fr/IMG/gison142.png?1558355025",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.483776211738587,
+                    43.78045413057158
+                ]
+            },
+            "id": "143",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>15<sup>ème</sup> bureau de vote </a>",
+                "description": "<p>Secteur Suillet <br class='autobr' />\nMaternelle René Cassin<br class='autobr' />\nChemin du Suillet<br class='autobr' />\n06500 Menton</p>",
+                "icon": "https://www.menton.fr/IMG/gison143.png?1558355318",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.492977529764176,
+                    43.787580481833395
+                ]
+            },
+            "id": "144",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>16<sup>ème</sup> 17<sup>ème</sup> 18<sup>ème</sup> bureaux de vote </a>",
+                "description": "<p>Secteur Careï<br class='autobr' />\nMaternelle du Careï<br class='autobr' />\nTraverse Boraschi<br class='autobr' />\n06500 Menton</p>",
+                "icon": "https://www.menton.fr/IMG/gison144.png?1558355368",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.485055625438691,
+                    43.80914574222078
+                ]
+            },
+            "id": "145",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>19<sup>ème</sup> bureau de vote </a>",
+                "description": "<p>Secteur Monti<br class='autobr' />\nhameau de Monti<br class='autobr' />\n06500 Monti</p>",
+                "icon": "https://www.menton.fr/IMG/gison145.png?1558355384",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.506758719682694,
+                    43.77702470147745
+                ]
+            },
+            "id": "146",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>20<sup>ème</sup> 21<sup>ème</sup> bureaux de vote </a>",
+                "description": "<p>Secteur Vieux Menton<br class='autobr' />\nÉcole Frédéric Mistral<br class='autobr' />\nplace de la Conception<br class='autobr' />\n06500 Menton</p>",
+                "icon": "https://www.menton.fr/IMG/gison146.png?1558355428",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.512143254280091,
+                    43.783374369102994
+                ]
+            },
+            "id": "147",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>22<sup>ème</sup> 23<sup>ème</sup> bureaux de vote  </a>",
+                "description": "<p>Secteur Garavan<br class='autobr' />\nécole Alphonse Daudet<br class='autobr' />\n4 avenue saint Jacques<br class='autobr' />\n06500 Menton</p>",
+                "icon": "https://www.menton.fr/IMG/gison147.png?1558355445",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.484540641307832,
+                    43.76571604626507
+                ]
+            },
+            "id": "148",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>24<sup>ème</sup> 25<sup>ème</sup> bureaux de vote</a>",
+                "description": "<p>Secteur Val de Gorbio<br class='autobr' />\nÉcole Marcel Pagnol<br class='autobr' />\n25 rue Paul Morillot<br class='autobr' />\n06500 Menton</p>",
+                "icon": "https://www.menton.fr/IMG/gison148.png?1558355472",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.488644421100617,
+                    43.80155377606934
+                ]
+            },
+            "id": "149",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>26<sup>ème</sup> 27<sup>ème</sup> bureaux  de vote </a>",
+                "description": "<p>Secteur Saint Roman<br class='autobr' />\nÉcole Saint-Exupéry<br class='autobr' />\n380 avenue Saint Roman<br class='autobr' />\n06500 Menton</p>",
+                "icon": "https://www.menton.fr/IMG/gison149.png?1558355488",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.486262619495393,
+                    43.779159536168116
+                ]
+            },
+            "id": "150",
+            "properties": {
+                "title": "<a href='Bureaux-de-vote.html'>28<sup>ème</sup> bureau de vote </a>",
+                "description": "<p>Secteur Borrigo<br class='autobr' />\nÉcole André Guillevin<br class='autobr' />\navenue des Acacias<br class='autobr' />\n06500 Menton</p>",
+                "icon": "https://www.menton.fr/IMG/gison150.png?1558355523",
+                "icon_size": [
+                    33,
+                    44
+                ],
+                "icon_anchor": [
+                    16.5,
+                    44
+                ],
+                "popup_anchor": [
+                    1,
+                    -36.67
+                ]
+            }
+        }
+    ]
+}

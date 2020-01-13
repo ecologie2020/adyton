@@ -1,13 +1,11 @@
 const fs = require('fs');
 
 const europeennes2019 = require('./europeennes2019');
-const geojsonFromBureaux = require('./geo').geojsonFromBureaux;
+const geojsonFromBureaux = require('./normalise-bureaux/nice-06-088').geojsonFromBureaux;
 const reportsMappings = require('../data/europeennes-2019-reports.json').écologie;
 
-const SOURCE_FILE = '../data/europeennes-2019-nice.csv';
 
-
-europeennes2019.load()
+europeennes2019.load(`${__dirname}/../data/europeennes-2019-nice.csv`)
 	.then(europeennes2019.parse)
 	.then(bureaux => {
 		let bureauxByAbstention = europeennes2019.sortBureauxBy(bureaux, '% Abs/Ins');

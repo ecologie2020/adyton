@@ -6,7 +6,7 @@ const GeoJSON = require('geojson');
 *@param	Object<Object>	bureauxData	Key: bureau ID, value: bureau properties to set in GeoJSON.
 */
 function geojsonFromBureaux(bureauxData) {
-	let bureauxNice = require('../data/bureaux-2018-nice.json').docs;
+	let bureauxNice = require('../../data/bureaux-2018-nice.json').docs;
 	bureauxNice = _.keyBy(bureauxNice, 'N_BUREAU');
 
 	let result = [];

@@ -1,13 +1,13 @@
-const geo = require('./geo');
+const nice = require('./nice-06-088');
 
-const PARSED_BUREAUX_DATA = require('../test/mock/europeennes-2019-nice-mock-parsed');
+const PARSED_BUREAUX_DATA = require('./nice-06-088.mock');
 
 
 describe('Geojson', () => {
 	test('is generated', () => {
 		let data = PARSED_BUREAUX_DATA.map(bureau => { return { [bureau.Bureau]: bureau.Inscrits } });
 
-		expect(geo.geojsonFromBureaux(data)).toEqual({
+		expect(nice.geojsonFromBureaux(data)).toEqual({
 			"type": "FeatureCollection",
 			"features": [
 				{

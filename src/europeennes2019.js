@@ -3,11 +3,10 @@ const fs = require('fs').promises;
 const _ = require('lodash');
 const parse = require('csv-parse');
 
-
-const SOURCE_FILE = `${__dirname}/../data/europeennes-2019-nice.csv`;
 const LISTES_NAMES = require('../data/europeennes-2019-listes.json').listes;
 
-function loadFile(source = SOURCE_FILE) {
+
+function loadFile(source) {
 	return fs.readFile(source);
 }
 

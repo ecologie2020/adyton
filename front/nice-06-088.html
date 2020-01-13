@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adyton — Nice</title>
+	<link rel="stylesheet" href="/node_modules/leaflet/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="/>
+	<script src="/node_modules/leaflet/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="></script>
+	<script src="/node_modules/leaflet.heat/dist/leaflet-heat.js" integrity="sha384-mFKkGiGvT5vo1fEyGCD3hshDdKmW3wzXW/x+fWriYJArD0R3gawT6lMvLboM22c0"></script>
+
+	<style type="text/css" media="screen">
+		h1 {
+			position: absolute;
+		}
+
+		#map {
+			height: 100vh;
+		}
+	</style>
+</head>
+<body>
+	<h1>Faire gagner des voix à l'écologie aux élections municipales 2020 en aidant la liste écologiste de Nice à orienter ses actions électorales (tractage, permanences, événements…).</h1>
+
+	<div id="map"></div>
+
+	<script type="text/javascript">
+		let map = L.map('map').setView([ 43.71, 7.26 ], 13);
+		L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '© OpenStreetMap contributors',
+			maxZoom: 15
+		}).addTo(map);
+
+		let control = L.control.layers({}, {}, { collapsed: false }).addTo(map);
+	</script>
+
+	<script type="text/javascript" src="js/loadHeatMap.js"></script>
+
+	<script type="text/javascript">
+		fetch('/dist/bureauxByAbstention-nice.geojson')
+			.then(bureauxByAbstention => bureauxByAbstention.json())
+			.then(bureauxByAbstention => {
+				let bureaux = L.geoJSON(bureauxByAbstention)
+					.bindPopup(layer => `Abstention : ${Math.floor(layer.feature.properties.valeur)}`)
+					.addTo(map);
+
+				control.addOverlay(bureaux, 'Bureaux de vote');
+			});
+
+		loadHeatMap('potentialScores-nice', { 0.2: '#262', 0.4: '#393', 0.6: '#8B8', 0.8: '#9D9', 1: '#9F9' }).then(potentialScores => {
+			potentialScores.addTo(map);
+			control.addOverlay(potentialScores, '<abbr title="Sur la base des élections européennes 2019, avec des taux de report par liste estimés par la moyenne de 4 personnes de l’équipe Nice Écologique.">Électorat écologiste</abbr>');
+		});
+
+		loadHeatMap('bureauxByAbstention-nice', { 0.2: '#DDD', 0.4: '#999', 0.6: '#666', 0.8: '#333', 1: '#000' }).then(abstention => {
+			abstention.addTo(map);
+			control.addOverlay(abstention, '<abbr title="Relativement à la plus faible abstention de la commune.">Abstention</abbr> Européennes 2019');
+		});
+	</script>
+
+</body>
+</html>

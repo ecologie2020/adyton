@@ -4,6 +4,16 @@ const europeennes2019 = require('./europeennes2019');
 const geojsonFromBureaux = require('./normalise-bureaux/nice-06-088').geojsonFromBureaux;
 const reportsMappings = require('../data/europeennes-2019-reports.json').écologie;
 
+europeennes2019.load(`${__dirname}/../data/europeennes-2019-menton.csv`)
+	.then(europeennes2019.parse)
+	.then(bureaux => {
+		fs.writeFile('dist/menton-06-083.mock.js', JSON.stringify(bureaux), err => {
+			if (err) throw err;
+			console.log('Wrote dist/menton-06-083.mock.js');
+		});
+	});
+
+
 
 europeennes2019.load(`${__dirname}/../data/europeennes-2019-nice.csv`)
 	.then(europeennes2019.parse)
